@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.page{
+    width: 100%;
+    height: 95vh;
+    
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/bff5732c-7d13-45d1-9fab-476db25a1827/46bc87cd-4c4c-4485-8b93-d5f21c581d56/IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+border-bottom: 10px solid rgb(36, 36, 35);
+}
+nav {
+    width: 100%;
+    /* height: 90px; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    padding: 30px 70px;
+
+
+}
+nav h1{
+    font-size: 45px;
+    color: rgb(229,9,20);
+    font-weight: 800;
+}
+nav select{
+    width: 120px;
+    height: 39px;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+}
+nav button{
+    width: 80px;
+    height: 39px;
+    padding: 5px;
+    background-color: #E50914;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+.text{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 70px;
+}
+.text h5{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text p{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.email-input{
+    width: 30%;
+    height: 50px;
+    font-size: 25px;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+}
+
+.input button{
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    background-color: #E50914;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+margin-left:10px ;
+}
+
+.page1{
+    width:100%;
+    height: 600px;
+    color: white;
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 10px solid rgb(36, 36, 35);
+
+}
+.p1-text{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    line-height: 60px;
+    
+}
+.page2{
+    width:100%;
+    height: 600px;
+    color: white;
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 10px solid rgb(36, 36, 35);
+   overflow: hidden;
+}
+.page2 img{
+    /* position: absolute; */
+
+}
+.box{
+width: 340px;
+height: 120px;
+background-color: #0c0c0c;
+position: relative;
+bottom: 150px;
+left: 215px;
+border: 2px solid rgb(39, 37, 37);
+display: flex;
+justify-content: space-around;
+border-radius: 20px;
+
+}
+.main-img img{
+width: 92%;
+position: relative;
+left: 90px;
+}
+
+.box img{
+    width: 30%;
+    height: 85%;
+    margin: 10px;
+}
+.box h3{
+    margin-top: 10px;
+}
+.box h3 p{
+    margin-top: 10px;
+    color: blue;
+    font-size: 22px;
+    font-weight: 600;
+}
+.p2-text{
+    width: 50%;
+    height: 100%;
+}
+
+.p2-text h1{
+    font-size: 75px;
+    position: relative;
+    top: 13%;
+}
+
+.p2-text h3{
+    margin-top: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 14%;  
+}
+.ani{
+    width: 13%;
+    height: 35%;
+    background-color: aliceblue;
+    position: relative;
+    top: 30%;
+    justify-content: center;
+}
+
+
+.page3{
+    width:100%;
+    height: 600px;
+    color: white;
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 10px solid rgb(36, 36, 35);
+   overflow: hidden;
+}
+.p3-text h1{
+    font-size: 60px;
+    position: relative;
+    top: 25%;
+    margin-left: 10%;
+}
+.p3-text p{
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 30px;
+    position: relative;
+    top: 25%;
+}
+.p3-img{
+    margin-top: 5%;
+    position: relative;
+    /* top: 25%; */
+}
+.page4{
+    width:100%;
+    height: 600px;
+    color: white;
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 10px solid rgb(36, 36, 35);
+   overflow: hidden;
+}
+.p4-text h2{
+    font-size: 60px;
+    position: relative;
+    top: 25%;
+    /* margin-left: 10%; */
+}
+.p4-text p{
+    margin-top: 20px;
+    /* margin-left: 10%;- */
+    font-size: 20px;
+    position: relative;
+    top: 25%;
+}
+.p4-img{
+    margin-top: 5%;
+    position: relative;
+    /* top: 25%; */
+}
+
+
+
+.page5{
+    color: white;
+    align-items: center;
+ 
+    border-bottom: 10px solid rgb(36, 36, 35);
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.page5 h1{
+    font-size: 70px;
+    margin-left: 20%;
+}
+.allque{
+    
+}
+.que{
+width: 80%;
+height: 80px;
+background: #2f2d2d;
+font-size: 25px;
+margin-top: 10px;
+margin-left: 10%;
+padding: 20px;
+}
+.page5 .r-text{
+    font-size: 25px;
+   margin-left: 30%;
+   margin-top: 30px;
+}
+.page5 input{
+    font-size: 20px;
+    margin-left: 32%;
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+    background-color: #2f2d2d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 9px;
+}
+.page5 button{
+    width: 200px;
+    height: 60px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+}
+.items{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 20px;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+footer p{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+footer button{
+    width: 100px;
+    height: 40px;
+    background-color: #E50914;
+    margin-left: 8%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 9px;
+}
